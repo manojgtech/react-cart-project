@@ -14,6 +14,7 @@ export default function Store(props) {
                 return(<Product key={product.id} item={product}  />);
             })
         );
+        
     }
     return (
         <div>

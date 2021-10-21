@@ -19,7 +19,7 @@ export const dummyProducts = [
   },
   {
     id: 4,
-    name: "Cabbage - Nappa",
+    name: "Cabbage - vNappa",
     price: 250.90,
     photo: "/img/4.jpg"
   },

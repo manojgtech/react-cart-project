@@ -34,8 +34,7 @@ function Carttable(props) {
         ));
      }
      const delItem=(e,item)=>{
-      
-        
+              
          let exist=cartdata.find((x)=>x.id==item.id);
           console.log("decr",exist)
          if(exist.qty>1){
