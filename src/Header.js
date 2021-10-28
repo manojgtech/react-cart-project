@@ -14,6 +14,7 @@ export default function Header(props) {
       <li className="active"><Link to="/">Home</Link></li>
       
       <li><Link to="/cart">Cart({props.items})</Link></li>
+       <li><Link to="/login">Login</Link></li>
       
     </ul>
   </div>

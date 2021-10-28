@@ -6,6 +6,8 @@ import {
   } from "react-router-dom";
   import Store from './Store';
   import Cart from './Cart'; 
+  import Login from './Login';
+import ProductDetail from './ProductDetail';  
 export default function Routes() {
     return (
         <div>
@@ -13,7 +15,8 @@ export default function Routes() {
             <Switch>
                 <Route exact path="/" component={Store} />
                 <Route path="/cart" component={Cart} />
-                
+                <Route path="/login" component={Login} />
+                <Route path="/product/:id" component={ProductDetail} />
             </Switch>
             
         </div>
