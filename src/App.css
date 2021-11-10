@@ -13,3 +13,24 @@
 .card .img{
   height: 150px;
 }
+
+.chatleft{
+  width: 50%;
+  color:gold;
+  background-color: grey;
+  padding:5px;
+  text-align: center;
+  border-radius: 20%;
+}
+.chatright{
+  color:indigo;
+  background-color: khaki;
+  position: relative;
+  margin-top: 10px;
+  padding:5px;
+  width: 50%;
+  margin-left: 40%;
+  text-align: center;
+  border-radius: 20px;
+
+}
